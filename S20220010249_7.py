@@ -79,7 +79,6 @@ def main():
     print(f"Validation Standard Deviation (Best K): {std_devs[best_k-1]:.4f}")
     print(f"Test Accuracy (Best K): {test_accuracy:.4f}\n")
     print("---- Summary of Validation Accuracies ----")
-    print("K\tAccuracy\tStandard Deviation")
     for i in range(1, 10):
         print(f"K = {i}, Accuracy = {accuracies[i-1]:.4f}, Standard Deviation = {std_devs[i-1]:.4f}")
 
